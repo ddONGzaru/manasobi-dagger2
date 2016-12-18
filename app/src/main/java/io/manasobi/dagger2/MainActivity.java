@@ -42,6 +42,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private AppComponent getApplicationComponent() {
-        return ((AppApplication) getApplication()).getApplicationComponent();
+        return ((AppApplication) getApplication()).getAppComponent();
     }
 }

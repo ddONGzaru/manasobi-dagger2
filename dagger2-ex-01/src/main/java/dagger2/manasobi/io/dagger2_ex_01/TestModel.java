@@ -1,21 +1,18 @@
 package dagger2.manasobi.io.dagger2_ex_01;
 
+import lombok.Setter;
+
 /**
  * Created by tw.jang on 2016-12-15.
  */
-
 public class TestModel {
-    String strTest;
 
-    TestModel(){
-        strTest = "test";
+    //
+    @Setter
+    TestService testService;
+
+    public void print() {
+        testService.test();
     }
 
-    public String getStrTest() {
-        return strTest;
-    }
-
-    public void setStrTest(String strTest) {
-        this.strTest = strTest;
-    }
 }
