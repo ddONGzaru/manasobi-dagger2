@@ -9,10 +9,12 @@ import dagger.Component;
  */
 
 @Singleton
-@Component(modules = TestModule.class)
+@Component(modules = {TestModule.class})
 public interface TestComponent {
 
     void inject(MainActivity target);
 
-    TestService getTestService();
+    //TestService getTestService();
+
+    TestService2 getTestService2();
 }
