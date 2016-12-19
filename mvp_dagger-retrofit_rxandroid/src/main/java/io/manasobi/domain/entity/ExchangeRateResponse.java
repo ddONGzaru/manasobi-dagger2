@@ -1,4 +1,4 @@
-package io.manasobi.data;
+package io.manasobi.domain.entity;
 
 import lombok.Data;
 

@@ -1,8 +1,8 @@
-package io.manasobi.exchange;
+package io.manasobi.di;
 
 import dagger.Component;
 import io.manasobi.PerActivity;
-import io.manasobi.data.AppComponent;
+import io.manasobi.ui.activity.MainActivity;
 
 /**
  * Created by tw.jang on 2016-12-19.

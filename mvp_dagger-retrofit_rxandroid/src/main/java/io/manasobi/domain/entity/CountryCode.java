@@ -1,4 +1,4 @@
-package io.manasobi.data;
+package io.manasobi.domain.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -15,5 +15,8 @@ public class CountryCode {
 
     @JsonProperty("JPY")
     private float JPY;
+
+    @JsonProperty("KRW")
+    private float KRW;
 
 }

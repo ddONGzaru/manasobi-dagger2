@@ -1,4 +1,4 @@
-package io.manasobi.data;
+package io.manasobi.di;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

@@ -1,6 +1,6 @@
-package io.manasobi.exchange;
+package io.manasobi.domain;
 
-import io.manasobi.data.ExchangeRateResponse;
+import io.manasobi.domain.entity.ExchangeRateResponse;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 import rx.Observable;

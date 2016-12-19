@@ -2,10 +2,8 @@ package io.manasobi;
 
 import android.app.Application;
 
-import io.manasobi.data.ApiModule;
-import io.manasobi.data.AppComponent;
-import io.manasobi.data.AppModule;
-import io.manasobi.data.DaggerAppComponent;
+import io.manasobi.di.AppComponent;
+import io.manasobi.di.DaggerAppComponent;
 
 /**
  * Created by tw.jang on 2016-12-19.
@@ -20,9 +18,7 @@ public class AppApplication extends Application {
         super.onCreate();
 
         mAppComponent = DaggerAppComponent.builder()
-                .appModule(new AppModule(this))
-                .apiModule(new ApiModule())
-                .build();
+                                          .build();
     }
 
     public AppComponent getAppComponent() {

@@ -1,4 +1,4 @@
-package io.manasobi.exchange;
+package io.manasobi.ui.activity;
 
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -9,9 +9,12 @@ import javax.inject.Inject;
 
 import io.manasobi.AppApplication;
 import io.manasobi.R;
-import io.manasobi.data.ExchangeRateResponse;
+import io.manasobi.di.DaggerExchangeRateComponent;
+import io.manasobi.domain.entity.ExchangeRateResponse;
+import io.manasobi.di.ExchangeRateModule;
+import io.manasobi.presenter.ExchangeRatePresenter;
 
-public class MainActivity extends AppCompatActivity implements ExchangeRateContract.View {
+public class MainActivity extends AppCompatActivity implements ExchangeRatePresenter.View {
 
     @Inject
     ExchangeRatePresenter mPresenter;
@@ -32,6 +35,6 @@ public class MainActivity extends AppCompatActivity implements ExchangeRateContr
     @Override
     public void bindExchangeRate(ExchangeRateResponse exchangeRateResponse) {
         TextView textView = (TextView) findViewById(R.id.txt_jpy);
-        textView.setText("JPY: " + String.valueOf(exchangeRateResponse.getRates().getJPY()));
+        textView.setText("KRW: " + String.valueOf(exchangeRateResponse.getRates().getKRW()));
     }
 }
