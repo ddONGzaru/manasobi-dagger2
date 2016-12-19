@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/dagger2-ex-02" />
             <option value="$PROJECT_DIR$/dagger2-ex-03" />
             <option value="$PROJECT_DIR$/mvp_dagger-retrofit_rxandroid" />
+            <option value="$PROJECT_DIR$/mvp_dagger_retrofit_rxandroid_rxbinding" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

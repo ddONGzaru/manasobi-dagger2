@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/dagger2-ex-03/dagger2-ex-03.iml" filepath="$PROJECT_DIR$/dagger2-ex-03/dagger2-ex-03.iml" />
       <module fileurl="file://$PROJECT_DIR$/manasobi-dagger2.iml" filepath="$PROJECT_DIR$/manasobi-dagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp_dagger-retrofit_rxandroid/mvp_dagger-retrofit_rxandroid.iml" filepath="$PROJECT_DIR$/mvp_dagger-retrofit_rxandroid/mvp_dagger-retrofit_rxandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp_dagger_retrofit_rxandroid_rxbinding/mvp_dagger_retrofit_rxandroid_rxbinding.iml" filepath="$PROJECT_DIR$/mvp_dagger_retrofit_rxandroid_rxbinding/mvp_dagger_retrofit_rxandroid_rxbinding.iml" />
     </modules>
   </component>
 </project>
