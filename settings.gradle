@@ -1,1 +1,1 @@
-include ':app', ':dagger2-ex-01', ':dagger2-ex-02', ':dagger2-ex-03'
+include ':app', ':dagger2-ex-01', ':dagger2-ex-02', ':dagger2-ex-03', ':mvp_dagger-retrofit_rxandroid'
