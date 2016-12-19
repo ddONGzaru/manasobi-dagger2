@@ -6,6 +6,7 @@ import javax.inject.Inject;
 
 import io.manasobi.domain.ExchangeRateApi;
 import io.manasobi.domain.entity.ExchangeRateResponse;
+import lombok.Setter;
 import retrofit2.Retrofit;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
@@ -19,12 +20,13 @@ import timber.log.Timber;
 public class ExchangeRatePresenter {
 
     private Retrofit retrofit;
+
+    @Setter
     private View view;
 
     @Inject
-    public ExchangeRatePresenter(Retrofit retrofit, View view) {
+    public ExchangeRatePresenter(Retrofit retrofit) {
         this.retrofit = retrofit;
-        this.view = view;
     }
 
     public void getExchangeRate() {

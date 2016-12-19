@@ -10,15 +10,4 @@ import io.manasobi.presenter.ExchangeRatePresenter;
 
 @Module
 public class ExchangeRateModule {
-
-    private final ExchangeRatePresenter.View mView;
-
-    public ExchangeRateModule(ExchangeRatePresenter.View mView) {
-        this.mView = mView;
-    }
-
-    @Provides
-    ExchangeRatePresenter.View provideExchangeRateView() {
-        return mView;
-    }
 }
